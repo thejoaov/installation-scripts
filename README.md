@@ -10,7 +10,7 @@
 
 ---
 
-The goal is to install the minimum for javascript/mobile full-stack development, with some personal configs, behaviors and theming.
+The goal is to install the minimum for full-stack development, with some personal configs, behaviors and theming.
 Some things are limited on windows.
 
 Binaries
