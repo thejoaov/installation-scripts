@@ -10,6 +10,12 @@
 
 ---
 
+[Linux](./linux) /
+[MacOS](./mac) /
+[Windows](./win)
+
+---
+
 The goal is to install the minimum for full-stack development, with some personal configs, behaviors and theming.
 Some things are limited on windows.
 
