@@ -29,10 +29,11 @@ brew install gh
 gh auth login -h github.com -s user,repo,admin:public_key -w
 ```
 
-5. Execute the script
+5. Clone and Execute the script
 
 ```bash
-curl -s https://raw.githubusercontent.com/thejoaov/installation-scripts/HEAD/linux/install.py | python3
+gh repo clone thejoaov/installation-scripts &&\
+cd installation-scripts/linux && ./install.sh
 ```
 
 #TODO
