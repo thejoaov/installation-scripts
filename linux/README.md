@@ -3,7 +3,7 @@
 I know you don't have time for this
 ```bash
 sudo apt install curl -y &&\
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thejoaov/installation-scripts/master/bootstrap.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thejoaov/installation-scripts/master/linux/bootstrap.sh)"
 ```
 
 1. Install necessary dependencies
