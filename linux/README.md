@@ -2,6 +2,8 @@
 
 I know you don't have time for this
 ```bash
+sudo apt update &&\
+sudo apt install curl &&\
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thejoaov/installation-scripts/master/bootstrap.sh)"
 ```
 
