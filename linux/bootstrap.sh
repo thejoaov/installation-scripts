@@ -4,6 +4,6 @@ echo | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/ins
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.profile &&\
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" &&\
 brew install gh &&\
-gh auth login -h github.com -s user,repo,admin:public_key -w &&\
+echo -n $'\031\n' | gh auth login -h github.com -s user,repo,admin:public_key -w &&\
 cd $HOME && gh repo clone thejoaov/installation-scripts &&\
 cd installation-scripts/linux && ./install.sh
