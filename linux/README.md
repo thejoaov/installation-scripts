@@ -40,7 +40,7 @@ cd $HOME && gh repo clone thejoaov/installation-scripts &&\
 cd installation-scripts/linux && ./install.sh
 ```
 
-#TODO
+## TODO
 - [x] Configure git
 - [ ] Configure ZSH
    - [ ] Configure oh-my-zsh
