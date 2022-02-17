@@ -1,6 +1,6 @@
 # Installation scripts for linux
 
-I know you don't have time for this
+## TL;DR: I know you don't have time for this
 ```bash
 sudo apt install curl -y &&\
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thejoaov/installation-scripts/master/linux/bootstrap.sh)"
