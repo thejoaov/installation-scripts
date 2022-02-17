@@ -6,6 +6,8 @@ sudo apt install curl -y &&\
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thejoaov/installation-scripts/master/linux/bootstrap.sh)"
 ```
 ---
+
+## Detailed steps
 1. Install necessary dependencies
 
 ```bash
