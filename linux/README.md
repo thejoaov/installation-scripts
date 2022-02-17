@@ -4,8 +4,7 @@
 
 ```bash
 sudo apt update &&\
-sudo apt install build-essential git curl wget -y &&\
-sudo apt install python3 python3-pip
+sudo apt install build-essential git curl wget python3 python3-pip -y
 ```
 
 2. Install homebrew (linuxbrew)
