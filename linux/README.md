@@ -36,11 +36,11 @@ curl -s https://raw.githubusercontent.com/thejoaov/installation-scripts/HEAD/lin
 ```
 
 #TODO
-- [ ] Configure git
+- [x] Configure git
 - [ ] Configure ZSH
    - [ ] Configure oh-my-zsh
-   - [ ] Instal theme spaceship
-   - [ ] Install custom .zshrc
+   - [ ] Instal theme
+   - [ ] Install .zshrc
 - [ ] Install nvm
    - [ ] Install node lts
    - [ ] Install yarn
