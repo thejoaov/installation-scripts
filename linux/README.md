@@ -49,6 +49,6 @@ cd installation-scripts/linux && ./install.sh
 - [ ] Install nvm
    - [ ] Install node lts
    - [ ] Install yarn
-- [ ] Install java
+- [x] Install java
 - [ ] Install rbenv
 - [ ] Install android-sdk
