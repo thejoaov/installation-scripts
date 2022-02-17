@@ -3,8 +3,8 @@
 1. Install necessary dependencies
 
 ```bash
-sudo apt update
-sudo apt install build-essential git-all curl wget
+sudo apt update &&\
+sudo apt install build-essential git-all curl wget -y &&\
 sudo apt install python3 python3-pip
 ```
 
