@@ -32,7 +32,7 @@ gh auth login -h github.com -s user,repo,admin:public_key -w
 5. Clone and Execute the script
 
 ```bash
-gh repo clone thejoaov/installation-scripts &&\
+cd $HOME && gh repo clone thejoaov/installation-scripts &&\
 cd installation-scripts/linux && ./install.sh
 ```
 
