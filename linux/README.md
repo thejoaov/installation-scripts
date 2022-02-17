@@ -1,5 +1,4 @@
 # Installation scripts for linux
----
 #### TL;DR: I know you don't have time for this
 ```bash
 sudo apt install curl -y &&\
