@@ -1,0 +1,20 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = João Victor dos Santos Mendes
+	email = jvictorsantos852@gmail.com
+[core]
+	editor = nano
+[alias]
+	s = !git status -s
+	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+	ca = !git add --all && git commit --amend --no-edit
+	bd = !git branch -D
+	pm = !git pull origin master
+	pmr = !git pull origin master --rebase
+[init]
+	defaultBranch = master
