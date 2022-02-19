@@ -9,4 +9,6 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm install --lts
 
+npm i -g yarn
+
 echo "nvm" >> $HOME/.installinfo
