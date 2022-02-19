@@ -17,3 +17,5 @@ cd ./nvm && ./install.sh || echo "Error installing nvm" && cd ..
 
 # echo "6. Installing android sdk"
 # cd ./sdk && ./install.sh || echo "Error installing android sdk" && cd ..
+
+zsh
