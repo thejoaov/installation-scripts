@@ -1,7 +1,8 @@
 # Installation scripts for linux
 #### TL;DR: I know you don't have time for this
 ```bash
-sudo apt install curl -y &&\
+sudo apt update
+sudo apt install build-essential git curl wget -y
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thejoaov/installation-scripts/master/linux/bootstrap.sh)"
 ```
 ## Detailed steps
