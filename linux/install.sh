@@ -1,21 +1,22 @@
 export BASE_URL=https://raw.githubusercontent.com/thejoaov/installation-scripts/master/linux
 
-echo "1. Installing git" &&\
-cd ./git && ./install.sh || echo "Error installing git" && cd ..
+# echo "⏺️  Installing git" &&\
+# cd ./git && ./install.sh && echo "✅ Success" || echo "⛔ Error" && cd ..
 
-echo "2. Installing java"
-cd ./java && ./install.sh || echo "Error installing java" && cd ..
+echo "⏺️  Installing java"
+cd ./java && ./install.sh && echo "✅ Success" || echo "⛔ Error" && cd ..
 
-echo "3. Installing zsh"
-cd ./zsh && ./install.sh || echo "Error installing zsh" && cd ..
+# echo "⏺️  Installing zsh"
+# cd ./zsh && ./install.sh && echo "✅ Success" || echo "⛔ Error" && cd ..
 
-echo "4. Installing nvm"
-cd ./nvm && ./install.sh || echo "Error installing nvm" && cd ..
+# echo "⏺️  Installing nvm"
+# cd ./nvm && ./install.sh && echo "✅ Success" || echo "⛔ Error" && cd ..
 
-# echo "5. Installing rbenv"
-# cd ./rbenv && ./install.sh || echo "Error installing rbenv" && cd ..
+echo "⏺️  Installing android sdk"
+cd ./android && ./install.sh && echo "✅ Success" || echo "⛔ Error"
 
-# echo "6. Installing android sdk"
-# cd ./sdk && ./install.sh || echo "Error installing android sdk" && cd ..
+# echo "⏺️  Installing rbenv"
+# cd ./rbenv && ./install.sh && echo "✅ Success" || echo "⛔ Error" && cd ..
 
-zsh
+# chsh -s $(which zsh)
+# zsh

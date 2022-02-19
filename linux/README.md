@@ -8,13 +8,13 @@ sudo apt install build-essential git curl wget -y &&\
 
 ## TODO
 - [x] Configure git
-- [ ] Configure ZSH
-   - [ ] Configure oh-my-zsh
-   - [ ] Instal theme
-   - [ ] Install .zshrc
-- [ ] Install nvm
-   - [ ] Install node lts
-   - [ ] Install yarn
+- [x] Configure ZSH
+   - [x] Configure oh-my-zsh
+   - [x] Instal theme
+   - [x] Install .zshrc
+- [x] Install nvm
+   - [x] Install node lts
+   - [x] Install yarn
 - [x] Install java
 - [ ] Install rbenv
 - [ ] Install android-sdk
