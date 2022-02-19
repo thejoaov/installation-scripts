@@ -1,5 +1,3 @@
-sudo apt-get -qq install git
-
 if [[ -f "$HOME/.gitconfig" ]]; then
   echo "   Git config found. Recreating"
   rm -rf $HOME/.gitconfig
