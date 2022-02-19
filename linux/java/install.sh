@@ -5,3 +5,4 @@ else
   sudo apt-get install -qq -o=Dpkg::Use-Pty=0 openjdk-11-jdk openjdk-11-jre -y
 fi
 echo "✅ Success"
+echo "java" >> $HOME/.installinfo

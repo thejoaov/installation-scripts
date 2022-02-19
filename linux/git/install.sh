@@ -18,6 +18,7 @@ else
         echo "   Code is not installed, leaving nano as default editor"
       fi
       echo "✅ Success"
+      echo "git" >> $HOME/.installinfo
       ;;
     *)
       # code if an error occurred

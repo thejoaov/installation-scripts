@@ -28,4 +28,4 @@ else
   curl -fsSL "$BASE_URL/linux/zsh/native/.zshrc" > $HOME/.zshrc
 fi
 
-echo "zsh" > $HOME/.zshconfig
+echo "zsh" >> $HOME/.installinfo
