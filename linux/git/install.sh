@@ -2,7 +2,7 @@ if [[ -f "$HOME/.gitconfig" ]]; then
   rm -rf $HOME/.gitconfig
 else
   touch $HOME/.gitconfig
-  case `grep -Fxq "# thejoaov" "$HOME/.gitconfig" >/dev/null; echo $?` in
+  case `grep -Fxq "# thejoaov" "$HOME/.gitconfig" > /dev/null; echo $?` in
     0)
       # code if found
       ;;

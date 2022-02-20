@@ -89,8 +89,8 @@ alias gpmain="git pull origin main --no-edit"
 alias gcfg="git config --global --edit"
 
 # wsl aliases
-alias wt=wt.exe
-alias emulator=emulator.exe
-alias adb=adb.exe
-alias sdkmanager=toolsbinsdkmanager.bat
-alias android=android.bat
+# alias wt=wt.exe
+# alias emulator=emulator.exe
+# alias adb=adb.exe
+# alias sdkmanager=toolsbinsdkmanager.bat
+# alias android=android.bat
