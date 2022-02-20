@@ -92,6 +92,7 @@ alias gcfg="git config --global --edit"
 
 # wsl aliases
 # this is in case you have android studio installed on windows
+alias android-studio=cd $HOME/android-studio/bin && ./studio.sh
 # alias wt=wt.exe
 # alias emulator=emulator.exe
 # alias adb=adb.exe
