@@ -1,6 +1,8 @@
 unset PREFIX
 export ZSH="$HOME/.oh-my-zsh"
-export ANDROID_HOME=/mnt/c/Users/thejoaov/AppData/Local/Android/Sdk  
+# this line is in case you have android studio installed on windows
+# export ANDROID_HOME=/mnt/c/Users/thejoaov/AppData/Local/Android/Sdk  
+export ANDROID_HOME=$HOME/Android/Sdk  
 export ANDROID_SDK_ROOT=$ANDROID_HOME
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
@@ -89,6 +91,7 @@ alias gpmain="git pull origin main --no-edit"
 alias gcfg="git config --global --edit"
 
 # wsl aliases
+# this is in case you have android studio installed on windows
 # alias wt=wt.exe
 # alias emulator=emulator.exe
 # alias adb=adb.exe
