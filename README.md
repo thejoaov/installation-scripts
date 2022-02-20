@@ -43,4 +43,4 @@ Applications
 - github desktop (mac)
 - postico (mac)
 - xcode (mac)
-- hyper.js (mac/linux)
+- hyper.js (mac)

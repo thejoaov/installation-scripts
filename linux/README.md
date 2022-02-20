@@ -17,4 +17,4 @@ sudo apt install build-essential git curl wget -y &&\
    - [x] Install yarn
 - [x] Install java
 - [ ] Install rbenv
-- [ ] Install android-sdk
+- [x] Install android-sdk
