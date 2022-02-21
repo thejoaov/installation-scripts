@@ -19,7 +19,7 @@ yes | android update sdk --no-ui
 
 wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2021.1.1.21/android-studio-2021.1.1.21-linux.tar.gz
 
-tar -xf android-studio-2021.1.1.21-linux.tar.gz
+tar -xf android-studio-2021.1.1.21-linux.tar.gz -C $HOME/android-studio
 rm android-studio-2021.1.1.21-linux.tar.gz
 
 echo "android" >> $HOME/.installinfo
