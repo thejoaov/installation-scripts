@@ -1,5 +1,4 @@
 # Installation scripts for MacOS
-
-## Arm devices (arm64)
-
-## Intel devices (x86_64) 
+```bash
+    sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/thejoaov/installation-scripts/master/mac/install.sh)"
+```
