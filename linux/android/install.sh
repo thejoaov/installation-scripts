@@ -7,7 +7,10 @@ mkdir $HOME/Android
 mkdir $HOME/Android/Sdk
 
 if [[ "$HOME/Android/Sdk" ]]; then
-  sudo apt-get install lib32z1 unzip -y 
+  sudo apt-get install lib32z1 unzip qemu-kvm qemu -y
+  sudo adduser $USER kvm
+  sudo chown $USER /dev/kvm
+  # newgrp kvm
   wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip -P $HOME
   unzip $HOME/sdk-tools-linux-4333796.zip -d ./Android/Sdk
   rm $HOME/sdk-tools-linux-4333796.zip
