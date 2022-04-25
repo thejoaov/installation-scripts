@@ -13,12 +13,11 @@ if [[ "$HOME/Android/Sdk" ]]; then
   rm $HOME/sdk-tools-linux-4333796.zip
 
   cd $HOME/Android/Sdk/tools/bin
-  source $HOME/.bashrc
   export ANDROID_HOME=$HOME/Android/Sdk
   export PATH=$PATH:$ANDROID_HOME/tools
   export PATH=$PATH:$ANDROID_HOME/platform-tools
-  printf "\n\nexport ANDROID_HOME=$HOME/Android/Sdk\nexport PATH=\$PATH:\$ANDROID_HOME/tools\nexport PATH=\$PATH:\$ANDROID_HOME/platform-tools" >> $HOME/.bashrc
-  source $HOME/.bashrc
+  printf "\n\nexport ANDROID_HOME=$HOME/Android/Sdk\nexport PATH=\$PATH:\$ANDROID_HOME/tools\nexport PATH=\$PATH:\$ANDROID_HOME/platform-tools" >> $HOME/.profile
+  source $HOME/.profile
 
   touch $HOME/.android/repositories.cfg
   yes | ./sdkmanager "platform-tools" "platforms;android-30" "build-tools;30.0.2" 
