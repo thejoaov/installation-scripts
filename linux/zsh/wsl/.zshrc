@@ -98,3 +98,17 @@ alias android-studio='nohup $HOME/android-studio/bin/studio.sh >> /dev/null 2>&1
 # alias adb=adb.exe
 # alias sdkmanager=toolsbinsdkmanager.bat
 # alias android=android.bat
+alias avd='avd_in_background(){
+  while getopts a:d flag
+  do
+    case "${flag}" in
+      a) avd=${OPTARG};
+      nohup emulator -avd $avd >> /dev/null 2>&1 &
+      ;;
+      d) default=${OPTARG};
+      nohup emulator -avd $(emulator -list-avds) >> /dev/null 2>&1 &
+      ;;
+    esac
+  done
+}
+avd_in_background'
