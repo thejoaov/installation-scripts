@@ -13,6 +13,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 printf "\n\nexport ANDROID_HOME=$HOME/Android\nexport PATH=\$PATH:\$ANDROID_HOME/tools\nexport PATH=\$PATH:\$ANDROID_HOME/platform-tools" >> $HOME/.bashrc
 source $HOME/.bashrc
 
+touch $HOME/.android/repositories.cfg
 yes | ./sdkmanager "platform-tools" "platforms;android-30" "build-tools;30.0.2" 
 yes | android update sdk --no-ui 
 
