@@ -1,7 +1,7 @@
 export BASE_URL=https://raw.githubusercontent.com/thejoaov/installation-scripts/master
 
-mkdir $HOME/Android
-mkdir $HOME/Android/Sdk
+mkdir ./Android
+mkdir ./Android/Sdk
 
 if [[ -f "$HOME/Android/Sdk" ]]; then
   sudo apt-get install lib32z1 unzip -y 
