@@ -6,7 +6,7 @@ export BASE_URL=https://raw.githubusercontent.com/thejoaov/installation-scripts/
 mkdir $HOME/Android
 mkdir $HOME/Android/Sdk
 
-if [[ -f "$HOME/Android/Sdk" ]]; then
+if [[ "$HOME/Android/Sdk" ]]; then
   sudo apt-get install lib32z1 unzip -y 
   wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip --quiet -P $HOME
   unzip $HOME/sdk-tools-linux-4333796.zip -d ./Android/Sdk
