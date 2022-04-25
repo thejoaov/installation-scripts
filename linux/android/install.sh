@@ -2,7 +2,7 @@ export BASE_URL=https://raw.githubusercontent.com/thejoaov/installation-scripts/
 
 sudo apt-get install lib32z1 unzip -y 
 wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip --quiet -P $HOME
-unzip sdk-tools-linux-4333796.zip -d $HOME/Android
+unzip sdk-tools-linux-4333796.zip -d $HOME/Android/Sdk
 rm $HOME/sdk-tools-linux-4333796.zip
 
 cd $HOME/Android/tools/bin
@@ -19,8 +19,7 @@ yes | android update sdk --no-ui
 
 
 wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2021.1.1.21/android-studio-2021.1.1.21-linux.tar.gz -P $HOME --quiet
-mkdir $HOME/android-studio
-tar -xf $HOME/android-studio-2021.1.1.21-linux.tar.gz -C $HOME/android-studio
+tar -xf $HOME/android-studio-2021.1.1.21-linux.tar.gz -C $HOME
 rm $HOME/android-studio-2021.1.1.21-linux.tar.gz
 
 echo "android" >> $HOME/.installinfo
