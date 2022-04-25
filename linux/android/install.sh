@@ -4,15 +4,15 @@ sudo apt-get install lib32z1 unzip -y
 wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip --quiet -P $HOME
 mkdir $HOME/Android/Sdk
 cd $HOME/Android/Sdk
-unzip $HOME/sdk-tools-linux-4333796.zip -d $HOME/Android/Sdk
+unzip $HOME/sdk-tools-linux-4333796.zip -d .
 rm $HOME/sdk-tools-linux-4333796.zip
 
-cd $HOME/Android/tools/bin
+cd $HOME/Android/Sdk/tools/bin
 source $HOME/.bashrc
-export ANDROID_HOME=$HOME/Android
+export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-printf "\n\nexport ANDROID_HOME=$HOME/Android\nexport PATH=\$PATH:\$ANDROID_HOME/tools\nexport PATH=\$PATH:\$ANDROID_HOME/platform-tools" >> $HOME/.bashrc
+printf "\n\nexport ANDROID_HOME=$HOME/Android/Sdk\nexport PATH=\$PATH:\$ANDROID_HOME/tools\nexport PATH=\$PATH:\$ANDROID_HOME/platform-tools" >> $HOME/.bashrc
 source $HOME/.bashrc
 
 touch $HOME/.android/repositories.cfg
