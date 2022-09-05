@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 if [[ -f "$HOME/.gitconfig" ]]; then
   rm -rf $HOME/.gitconfig
 else
