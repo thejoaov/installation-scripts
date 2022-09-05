@@ -15,8 +15,8 @@ cd ./nvm && ./install.sh >/dev/null 2>&1 && echo "✅ Success" || echo "⛔ Erro
 echo "⏺️ Installing android sdk"
 cd ./android && ./install.sh >/dev/null 2>&1 && echo "✅ Success" || echo "⛔ Error"
 
-# echo "⏺️ Installing rbenv"
-# cd ./rbenv && ./install.sh >/dev/null 2>&1 && echo "✅ Success" || echo "⛔ Error" && cd ..
+echo "⏺️ Installing rbenv"
+cd ./rbenv && ./install.sh >/dev/null 2>&1 && echo "✅ Success" || echo "⛔ Error" && cd ..
 
 echo "⏺️ Changing default shell to ZSH"
 chsh -s $(which zsh)
