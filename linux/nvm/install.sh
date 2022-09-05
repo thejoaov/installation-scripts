@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 export BASE_URL=https://raw.githubusercontent.com/thejoaov/installation-scripts/master
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh --silent | zsh
