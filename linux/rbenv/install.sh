@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 export BASE_URL=https://raw.githubusercontent.com/thejoaov/installation-scripts/master
 
 sudo apt install rbenv -y
