@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 if ! java -version 2>&1 >/dev/null | grep -q "java version" ; then
   sudo apt-get install -qq openjdk-11-jdk openjdk-11-jre -y
   export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
