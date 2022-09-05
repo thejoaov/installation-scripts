@@ -29,8 +29,8 @@ if [[ "$HOME/Android/Sdk" ]]; then
 
 
   wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2021.2.1.16/android-studio-2021.2.1.16-linux.tar.gz -P $HOME
-  tar -xf $HOME/android-studio-2021.1.1.21-linux.tar.gz -C $HOME
-  rm $HOME/android-studio-2021.1.1.21-linux.tar.gz
+  tar -xf $HOME/android-studio-2021.2.1.16-linux.tar.gz -C $HOME
+  rm $HOME/android-studio-2021.2.1.16-linux.tar.gz
 
   echo "android" >> $HOME/.installinfo
 else
